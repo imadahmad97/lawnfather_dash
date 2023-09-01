@@ -81,7 +81,7 @@ app.layout = html.Div(style={'display': 'flex'}, children=[
         # Average Customer Lifespan
         html.H2("Average Customer Lifespan"),
         html.Div([
-            html.H2(f"{avg_lifespan} Years", style={'font-size': '48px', 'font-weight': 'bold'})
+            html.H2(f"{avg_lifespan} Days", style={'font-size': '48px', 'font-weight': 'bold'})
         ], style={'text-align': 'center'}),
         html.Div([
             html.P("The average customer lifespan indicates the average number of years a customer continues to be a customer.")
